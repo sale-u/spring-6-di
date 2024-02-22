@@ -13,10 +13,7 @@ class ConstructorInjectedControllerTest {
 
     @Autowired
     ConstructorInjectedController constructorInjectedController;
-//    @BeforeEach
-//    void setUp() {
-//        constructorInjectedController = new ConstructorInjectedController(new GreetingServiceImpl());
-//    }
+
     @Test
     void sayHello() {
         System.out.println(constructorInjectedController.sayHello());
