@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class GreetingServiceImpl implements GreetingService {
     @Override
     public String sayGreeting() {
-        return "Hello from Base Service method sayGreeting()";
+        return "Hello from Base Service GreetingServiceImpl method sayGreeting()";
     }
 }
